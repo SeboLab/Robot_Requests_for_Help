@@ -24,7 +24,7 @@ This repository uses the [Misty Python-SDK](https://github.com/MistyCommunity/Py
      ├── main.py
      ├── update.py
      ├── req.txt
-     ├── tablet-game
+     ├── /tablet-game
      ├── /Python-SDK
      └── /venv (optional, created during setup)
    ```
