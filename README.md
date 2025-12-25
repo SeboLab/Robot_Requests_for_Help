@@ -22,7 +22,7 @@ This repository uses the [Misty Python-SDK](https://github.com/MistyCommunity/Py
    ```bash
    /Robot_Requests_for_Help
      ├── main.py
-     ├── update.py
+     ├── TCP.py
      ├── req.txt
      ├── /tablet-game
      ├── /Python-SDK
