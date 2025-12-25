@@ -23,12 +23,13 @@ This repository uses the [Misty Python-SDK](https://github.com/MistyCommunity/Py
    /Robot_Requests_for_Help
      ├── main.py
      ├── update.py
-     ├── requirements.txt
+     ├── req.txt
+     ├── tablet-game
      ├── /Python-SDK
      └── /venv (optional, created during setup)
    ```
 5. Update the misty IP address in `main.py` **line 717**
-6. The ```Tablet Game``` folder contains Java code for our tablet game, which should be run through Android Studio. When running the codes
+6. The ```tablet-game``` folder contains Java code for our tablet game, which should be run through Android Studio. When running the codes
     
     (a) Change the file path in ```local.properties``` into your path
     
