@@ -1,9 +1,11 @@
 # Robot_Requests_for_Help (Updated Dec. 25th, 2025)
 This repository contains the code used for the paper _"Can You Help Me? The Influence of Robot Requests for Help on Child-Robot Connection"_
 
-This repository uses the [Misty Python-SDK](https://github.com/MistyCommunity/Python-SDK), which allows direct programming of the Misty robot on macOS.
+ACM Reference Format:
+Teresa Flanagan, Justin Chenjia Zhang, Lin Bian, and Sarah Sebo. 2026. Can You Help Me? The Influence of Robot Requests for Help on Child-Robot Connection. In _Proceedings of 2026 ACM/IEEE International Conference on Human-Robot Interaction (HRI ’26)_. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3757279.3785631
 
 # Instructions for Running the Code on macOS
+This repository uses the [Misty Python-SDK](https://github.com/MistyCommunity/Python-SDK), which allows direct programming of the Misty robot on macOS.
 1. Clone this repository
 2. Create a virtual environment and install the dependencies listed in ```req.txt```
    
