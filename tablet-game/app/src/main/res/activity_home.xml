@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Misty"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Horizontal Layout for Buttons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Game"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B2CBF"
+            android:padding="12dp"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/practiceButton"
+            android:layout_width="wrap_content"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B2CBF"
+            android:text="Practice"
+            android:layout_height="wrap_content"
+            android:padding="12dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Difficulty"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/difficultySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP:port"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp" />
+
+
+    <EditText
+        android:id="@+id/IPandPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter IP address:port here"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/ConnectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#7B2CBF"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="connectTablet" />
+
+
+
+
+</LinearLayout>
