@@ -4,8 +4,13 @@
 This repository contains the code used for the paper:
 > **Can You Help Me? The Influence of Robot Requests for Help on Child–Robot Connection**
 
-**ACM Reference Format:** \n
-Teresa Flanagan, Justin Chenjia Zhang, Lin Bian, and Sarah Sebo. 2026. Can You Help Me? The Influence of Robot Requests for Help on Child-Robot Connection. In _Proceedings of 2026 ACM/IEEE International Conference on Human-Robot Interaction (HRI ’26)_. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3757279.3785631
+### Citation
+
+> Teresa Flanagan, Justin Chenjia Zhang, Lin Bian, and Sarah Sebo. 2026.  
+> **Can You Help Me? The Influence of Robot Requests for Help on Child–Robot Connection.**  
+> In *Proceedings of the 2026 ACM/IEEE International Conference on Human-Robot Interaction (HRI ’26)*.  
+> ACM, New York, NY, USA, 10 pages.  
+> https://doi.org/10.1145/3757279.3785631
 
 # Instructions for Running the Code on macOS
 This repository uses the [Misty Python-SDK](https://github.com/MistyCommunity/Python-SDK), which allows direct programming of the Misty robot on macOS.
